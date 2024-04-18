@@ -12,6 +12,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'My Docs',
+			components: {
+				// Override the default `SocialIcons` component.
+				SiteTitle: './src/components/SiteTitle.astro',
+			  },
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
