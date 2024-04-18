@@ -7,6 +7,7 @@ export default defineConfig({
 	paths: {
 		"@images": "src/images/*",
 	},
+	outDir: './dist/docs/',	
 
 	integrations: [
 		starlight({
